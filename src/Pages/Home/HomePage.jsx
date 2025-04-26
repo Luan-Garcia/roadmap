@@ -31,11 +31,11 @@ const HomePage = () => {
       <Link to="/roadmaps/cybersecurity"><CyberSecurity /></Link>
       <Link to="/roadmaps/dbs"><BancoDados /></Link>
       <Link to="/roadmaps/infra_e_redes"><InfraRedes /></Link>
-      <Link to="/roadmaps/game_dev"><GameDevelop /></Link>
+      <Link to="/roadmaps/gamedev"><GameDevelop /></Link>
       <Link to="/roadmaps/programação"><Dados /></Link>
       <Link to="/roadmaps/inovações"><TecEmergentes /></Link>
       <Link to="/roadmaps/sistemas_operacionais"><SisOperacional /></Link>
-      <Link to="/roadmaps/dev_mobile"><DevMobile /></Link>
+      <Link to="/roadmaps/devmobile"><DevMobile /></Link>
       <Link to="/roadmaps/hardware"><Hardware /></Link>
       </div>
     </>
