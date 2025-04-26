@@ -1,17 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './App.css'; 
 import anonImage from './img/anon.png'; 
-import NavBar from './Components/NavBar/NavBar.jsx';
-import FAQ from './Components/FAQ/FAQ.jsx'
-
+import NavBar from './Pages/Components/NavBar/NavBar.jsx';
+import FAQ from './Pages/Components/FAQ/FAQ.jsx'
 
 const App = () => {
-  const [activeIndex, setActiveIndex] = useState(null);
-
-  const toggleAccordion = (index) => {
-    setActiveIndex(activeIndex === index ? null : index);
-  };
-
   return (
     <div>
         <NavBar/>

@@ -7,7 +7,7 @@ const AiDados = () => {
     <>
     <div className="roadmap-grid">
      <div className="step">
-          <Link to="/dados" className='a'>AI e Dados</Link>
+          <Link to="/Roadmaps/AieDados" className='a'>AI e Dados</Link>
         </div>
         </div>
     </>

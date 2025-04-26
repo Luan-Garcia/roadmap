@@ -1,17 +1,17 @@
 import React from 'react'
-import './dsweb.css'
+import './devMobile.css'
 import { Link } from 'react-router-dom';
 
-const DsWeb = () => {
+const DevMobile = () => {
   return (
     <>
       <div className="roadmap-grid">
         <div className="step">
-          <Link to="/web">Desenvolvimento Web</Link>
+          <Link to="/Roadmaps/DevMobile">Mobile Development</Link>
         </div>
       </div>
     </>
   )
 };
 
-export default DsWeb;
+export default DevMobile;

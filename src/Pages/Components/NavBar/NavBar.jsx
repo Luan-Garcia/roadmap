@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import CadastroPage from '../../Pages/CadastroPage/CadastroPage'; // importa o componente popup
+import CadastroPage from '../../CadastroPage/CadastroPage.jsx'; // importa o componente popup
 import './navbar.css';
-import Logo from '../../img/logo-is.png';
+import Logo from '../../../img/logo-is.png';
 
 const NavBar = () => {
     const [showCadastro, setShowCadastro] = useState(false);
@@ -21,10 +21,10 @@ const NavBar = () => {
     };
 
     const handleRoadmapsClick = () => {
-        if (window.location.pathname !== '/roadmaps') {
+        if (window.location.pathname !== '/Roadmaps') {
             setLoading(true);
             setTimeout(() => {
-                navigate('/roadmaps');
+                navigate('/Roadmaps');
                 setLoading(false); 
             });
         }
@@ -48,7 +48,7 @@ const NavBar = () => {
                 </div>
 
                 <nav>
-                    <Link to="/roadmaps" onClick={handleRoadmapsClick}>Roadmaps</Link>
+                    <Link to="/Roadmaps" onClick={handleRoadmapsClick}>Roadmaps</Link>
                     <Link to="https://discord.gg/V8H56EnPSc">Comunidade</Link>
                     <Link to="#">Créditos</Link>
                 </nav>

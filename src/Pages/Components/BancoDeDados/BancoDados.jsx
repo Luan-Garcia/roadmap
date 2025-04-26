@@ -1,16 +1,18 @@
 import React from 'react'
-import './tecemergentes.css'
+import './bancodados.css'
+import { Link } from 'react-router-dom'
 
-const TecEmergentes = () => {
+
+const BancoDados = () => {
     return (
         <>
             <div className='roadmap-grid'>
                 <div className="step">
-                    <a href="contents/cybersecurity.html">Tecnologias Emergentes</a>
+                    <Link to="/Roadmaps/BancodeDados">Banco de Dados</Link>
                 </div>
             </div>
         </>
     )
 }
 
-export default TecEmergentes
+export default BancoDados
