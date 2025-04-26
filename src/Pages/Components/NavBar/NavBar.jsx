@@ -50,7 +50,7 @@ const NavBar = () => {
                 <nav>
                     <Link to="/Roadmaps" onClick={handleRoadmapsClick}>Roadmaps</Link>
                     <Link to="https://discord.gg/V8H56EnPSc">Comunidade</Link>
-                    <Link to="#">Créditos</Link>
+                    <Link to="#">Desenvolvedores</Link>
                 </nav>
 
                 <div className="auth-buttons">
