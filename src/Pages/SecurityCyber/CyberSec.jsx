@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './cyberSec.css'; // Certifique-se de que esse CSS existe
-import NavBar from '../../Components/NavBar/NavBar';
+import NavBar from '../Components/NavBar/NavBar.jsx';
 
 const CyberSec = () => {
     const steps = [
-        { label: 'Red+ Team', path: '/cyberseguranca/redteam' },
-        { label: 'Blue+ Team', path: '/cyberseguranca/blueteam' },
-        { label: 'Yellow+ Team', path: '/cyberseguranca/yellow' },
+        { label: 'Red+ Team', path: '/cybersecurity/redteam' },
+        { label: 'Blue+ Team', path: '/cybersecurity/blueteam' },
+        { label: 'Yellow+ Team', path: '/cybersecurity/yellowteam' },
     ];
 
     return (
@@ -15,7 +15,7 @@ const CyberSec = () => {
             <NavBar />
             <div className="main-title">
                 <h1>Illusion Roadmaps</h1>
-                <p>Conteúdos de Cibersegurança</p>
+                <p>Roadmaps de Cibersegurança</p>
             </div>
             <div className="roadmap-grid">
                 {steps.map((step, index) => (

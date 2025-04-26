@@ -1,14 +1,15 @@
 import React from 'react'
-import './infraredes.css'
+import './inovaçoes.css'
 import { Link } from 'react-router-dom'
 import NavBar from '../Components/NavBar/NavBar.jsx'
 
-
-const InfraRedes = () => {
+const InovaçoesTech = () => {
     const steps = [
-        { label: 'Infraestrutura', path: '/infra_e_redes/infraestrutura' },
-        { label: 'Cloud Computing', path: '/infra_e_redes/cloud_computing' },
-        { label: 'Redes', path: '/infra_e_redes/networking' },
+        { label: 'Computação Quântica', path: '/inovações/computação_quântica' },
+        { label: 'Biotecnologia', path: '/inovações/biotecnologia' },
+        { label: 'Blockchain', path: '/inovações/blockchain' },
+        { label: 'Neurotecnologia', path: '/inovações/neurotecnologia' },
+        { label: 'Realidade Extendida', path: '/inovações/xr' },
     ];
     return (
         <>
@@ -30,4 +31,4 @@ const InfraRedes = () => {
     )
 }
 
-export default InfraRedes
+export default InovaçoesTech

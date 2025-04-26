@@ -1,17 +1,17 @@
 import React from 'react'
-import './sisembarque.css'
+import './sistemaoperacional.css'
 import { Link } from 'react-router-dom';
 
-const SistemasEmbarcados = () => {
+const SistemasOperacionais = () => {
   return (
     <>
       <div className="roadmap-grid">
         <div className="step">
-          <Link to="/Roadmaps/SistemasEmbarcados">Sistemas Embarcados</Link>
+          <Link to="/roadmaps/sistemas_operacionais">Sistemas Operacionais</Link>
         </div>
       </div>
     </>
   )
 };
 
-export default SistemasEmbarcados;
+export default SistemasOperacionais;

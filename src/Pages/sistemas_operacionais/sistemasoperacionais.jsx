@@ -1,22 +1,21 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './dsweb.css'; // Certifique-se de que esse CSS existe
+import './sistemas_operacionais.css'; // Certifique-se de que esse CSS existe
 import NavBar from '../Components/NavBar/NavBar.jsx';
 
-const WebDs = () => {
+const SistemasOperacionais = () => {
     const steps = [
-        { label: 'Front-End', path: '/web/frontend' },
-        { label: 'Back-End', path: '/web/backend' },
-        { label: 'Desenvolvimento de APIs', path: '/web/apis' },
-        { label: 'UI/UX Design', path: '/web/design' },
+        { label: 'Desktop', path: '/sistemas_operacionais/desktop' },
+        { label: 'Mobile', path: '/sistemas_operacionais/mobile' },
+        { label: 'Servidores', path: '/sistemas_operacionais/servidor' },
     ];
 
     return (
         <>
             <NavBar />
-            <div class="main-title">
+            <div className="main-title">
                 <h1>Illusion Roadmaps</h1>
-                <p>Roadmaps de Desenvolvimento Web</p>
+                <p>Roadmaps de Cibersegurança</p>
             </div>
             <div className="roadmap-grid">
                 {steps.map((step, index) => (
@@ -28,8 +27,7 @@ const WebDs = () => {
                 ))}
             </div>
         </>
-
     );
 };
 
-export default WebDs;
+export default SistemasOperacionais;

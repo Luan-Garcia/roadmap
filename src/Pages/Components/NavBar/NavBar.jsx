@@ -21,10 +21,10 @@ const NavBar = () => {
     };
 
     const handleRoadmapsClick = () => {
-        if (window.location.pathname !== '/Roadmaps') {
+        if (window.location.pathname !== '/roadmaps') {
             setLoading(true);
             setTimeout(() => {
-                navigate('/Roadmaps');
+                navigate('/roadmaps');
                 setLoading(false); 
             });
         }
@@ -48,7 +48,7 @@ const NavBar = () => {
                 </div>
 
                 <nav>
-                    <Link to="/Roadmaps" onClick={handleRoadmapsClick}>Roadmaps</Link>
+                    <Link to="/roadmaps" onClick={handleRoadmapsClick}>Roadmaps</Link>
                     <Link to="https://discord.gg/V8H56EnPSc">Comunidade</Link>
                     <Link to="#">Desenvolvedores</Link>
                 </nav>

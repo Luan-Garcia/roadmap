@@ -7,7 +7,7 @@ const DevMobile = () => {
     <>
       <div className="roadmap-grid">
         <div className="step">
-          <Link to="/Roadmaps/DevMobile">Mobile Development</Link>
+          <Link to="/roadmaps/devmobile">Mobile Development</Link>
         </div>
       </div>
     </>

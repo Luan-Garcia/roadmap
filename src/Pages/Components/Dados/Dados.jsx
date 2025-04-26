@@ -7,7 +7,7 @@ const Programming = () => {
     <>
     <div className='roadmap-grid'>
     <div className="step">
-          <Link to="/Roadmaps/Programação">Programação</Link>
+          <Link to="/roadmaps/programação">Programação</Link>
         </div>
         </div>
     </>

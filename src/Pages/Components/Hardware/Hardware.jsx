@@ -7,7 +7,7 @@ const Hardware = () => {
     <>
       <div className="roadmap-grid">
         <div className="step">
-          <Link to="/Roadmaps/Hardware">Hardware</Link>
+          <Link to="/roadmaps/hardware">Hardware</Link>
         </div>
       </div>
     </>

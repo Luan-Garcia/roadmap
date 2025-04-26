@@ -8,7 +8,7 @@ const BancoDados = () => {
         <>
             <div className='roadmap-grid'>
                 <div className="step">
-                    <Link to="/Roadmaps/BancodeDados">Banco de Dados</Link>
+                    <Link to="/roadmaps/dbs">Banco de Dados</Link>
                 </div>
             </div>
         </>

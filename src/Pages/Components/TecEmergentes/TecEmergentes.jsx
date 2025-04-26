@@ -7,7 +7,7 @@ const InovaçoesTech = () => {
     <>
       <div className="roadmap-grid">
         <div className="step">
-          <Link to="/Roadmaps/InovaçõesTech">Inovações Tech</Link>
+          <Link to="/roadmaps/inovações">Inovações Tech</Link>
         </div>
       </div>
     </>

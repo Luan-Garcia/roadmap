@@ -6,7 +6,7 @@ const CyberSecurity = () => {
     <>
     <div className='roadmap-grid'>
     <div className="step">
-          <Link to="/Roadmaps/CyberSecurity">Segurança Cibernética</Link>
+          <Link to="/roadmaps/cybersecurity">Segurança Cibernética</Link>
         </div>
         </div>
     </>

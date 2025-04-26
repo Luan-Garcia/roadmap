@@ -7,7 +7,7 @@ const DsWeb = () => {
     <>
       <div className="roadmap-grid">
         <div className="step">
-          <Link to="/Roadmaps/DevWeb">Desenvolvimento Web</Link>
+          <Link to="/roadmaps/web">Desenvolvimento Web</Link>
         </div>
       </div>
     </>

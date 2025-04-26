@@ -8,7 +8,6 @@ const App = () => {
   return (
     <div>
         <NavBar/>
-
       <main>
         <section className="hero">
           <div className="hero-content">

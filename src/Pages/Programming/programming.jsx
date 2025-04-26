@@ -1,24 +1,27 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './aidados.css';
+import './programming.css'; // Certifique-se de que esse CSS existe
 import NavBar from '../Components/NavBar/NavBar.jsx';
 
-const DadosAi = () => {
+const Programming = () => {
     const steps = [
-        { label: 'AI', path: '/ai_e_dados/ai' },
-        { label: 'Ciência de Dados', path: '/ai_e_dados/ciencia_de_dados' },
-        { label: 'Big Data', path: '/ai_e_dados/big_data' },
-    ];
+        { label: 'Python', path: '/programação/python' },
+        { label: 'Javascript', path: '/programação/javascript' },
+        { label: 'C-Like', path: '/programação/c-like' },
+        { label: 'R', path: '/programação/r' },
+        { label: 'Rust', path: '/programação/rust' },
+        { label: 'Java', path: '/programação/java' },
+        { label: 'PHP', path: '/programação/php' },
+        { label: 'Typescript', path: '/programação/typescript' },
+        ];
 
     return (
         <>
             <NavBar />
-
             <div className="main-title">
                 <h1>Illusion Roadmaps</h1>
-                <p>Roadmaps de Inteligência Artificial e Dados</p>
+                <p>Roadmaps de Programação</p>
             </div>
-
             <div className="roadmap-grid">
                 {steps.map((step, index) => (
                     <div className="step" key={index}>
@@ -32,4 +35,4 @@ const DadosAi = () => {
     );
 };
 
-export default DadosAi;
+export default Programming;

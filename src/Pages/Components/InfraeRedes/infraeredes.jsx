@@ -1,5 +1,5 @@
 import React from 'react'
-import './cloudcomputing.css'
+import './infraeredes.css'
 import { Link } from 'react-router-dom'
 
 const CloudComputing = () => {
@@ -7,7 +7,7 @@ const CloudComputing = () => {
     <>
     <div className='roadmap-grid'>
 <div className="step">
-      <Link to="/Roadmaps/CloudComputing">Cloud Computing</Link>
+      <Link to="/roadmaps/infra_e_redes">Infra e Redes</Link>
     </div>
     </div>
     </>

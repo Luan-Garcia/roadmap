@@ -7,7 +7,7 @@ const GameDev = () => {
     <>
       <div className="roadmap-grid">
         <div className="step">
-          <Link to="/Roadmaps/GameDev">Game Development</Link>
+          <Link to="/roadmaps/gamedev">Game Development</Link>
         </div>
       </div>
     </>

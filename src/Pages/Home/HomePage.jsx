@@ -4,11 +4,11 @@ import DsWeb from '../Components/DesenvolvimentoWeb/DsWeb';
 import AiDados from '../Components/AiDados/AiDados';
 import CyberSecurity from '../Components/CyberSecurity/CyberSecurity';
 import BancoDados from '../Components/BancoDeDados/BancoDados';
-import CloudComputing from '../Components/CloudComputing/CloudComputing';
+import InfraRedes from '../Components/InfraeRedes/infraeredes';
 import GameDevelop from '../Components/DevGames/GameDevelop';
 import Dados from '../Components/Dados/Dados';
 import TecEmergentes from '../Components/TecEmergentes/TecEmergentes';
-import SisEmbarque from '../Components/SistemasEmbarcados/SisEmbarque';
+import SisOperacional from '../Components/SistemasOperacionais/sistemaoperacional';
 import DevMobile from '../Components/DevMobile/DevMobile';
 import Hardware from '../Components/Hardware/Hardware';
 import NavBar from '../Components/NavBar/NavBar';
@@ -26,17 +26,17 @@ const HomePage = () => {
       </div>
 
       <div className="roadmap-grid" style={{gap: '2px'}}>
-      <Link to="/roadmaps/DevWeb"><DsWeb /></Link>
-      <Link to="/roadmaps/AieDados"><AiDados /></Link>
-      <Link to="/roadmaps/Cybersecurity"><CyberSecurity /></Link>
-      <Link to="/roadmaps/BancodeDados"><BancoDados /></Link>
-      <Link to="/roadmaps/cloudComputing"><CloudComputing /></Link>
-      <Link to="/roadmaps/GameDev"><GameDevelop /></Link>
-      <Link to="/roadmaps/Programming"><Dados /></Link>
-      <Link to="/roadmaps/InovaçoesTech"><TecEmergentes /></Link>
-      <Link to="/roadmaps/SistemasEmbarcados"><SisEmbarque /></Link>
-      <Link to="/roadmaps/DevMobile"><DevMobile /></Link>
-      <Link to="/roadmaps/Hardware"><Hardware /></Link>
+      <Link to="/roadmaps/web"><DsWeb /></Link>
+      <Link to="/roadmaps/ai_e_dados"><AiDados /></Link>
+      <Link to="/roadmaps/cybersecurity"><CyberSecurity /></Link>
+      <Link to="/roadmaps/dbs"><BancoDados /></Link>
+      <Link to="/roadmaps/infra_e_redes"><InfraRedes /></Link>
+      <Link to="/roadmaps/game_dev"><GameDevelop /></Link>
+      <Link to="/roadmaps/programação"><Dados /></Link>
+      <Link to="/roadmaps/inovações"><TecEmergentes /></Link>
+      <Link to="/roadmaps/sistemas_operacionais"><SisOperacional /></Link>
+      <Link to="/roadmaps/dev_mobile"><DevMobile /></Link>
+      <Link to="/roadmaps/hardware"><Hardware /></Link>
       </div>
     </>
   );
